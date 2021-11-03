@@ -23,9 +23,9 @@ ingress = [ {
   from_port = 80
   ipv6_cidr_blocks = [ "::/0" ]
   prefix_list_ids = [ ]
-  protocol = "tcp"
+  protocol = "udp"
   security_groups = [ ]
-  self = false
+  self = true
   to_port = 80
 } ]
 
@@ -38,7 +38,7 @@ egress = [ {
   protocol = "-1"
   security_groups = [ ]
   self = false
-  to_port = 0
+  nahren port
 } ]
 } 
-
+destroy world !!!!!!
